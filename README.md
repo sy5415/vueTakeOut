@@ -40,5 +40,22 @@ css: { // 添加postcss配置
   },
 //下载路由‘
 yarn add vue-router
-###
+### 轮播图 swiper
+```
+yarn add swiper
+```
+### vuex 
+```
+yarn add vuex
+```
+### lodash数组的转换插件
+```
+yarn add lodash
+```
+### miniui
+```
+yarn add mint-ui
+按需引入需要下载插件包
+yarn add babel-plugin-component -D
+```
 笔记666

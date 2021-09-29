@@ -32,8 +32,11 @@ export default {
   name:'FooterGuide',
   methods:{
     goto(path){
-      this.$router.replace(path)
-      console.log(this.$router);
+      //判断的目的是为了防止用户连续点底部导航栏选项一个多次 防止报错
+      if(path!==this.$route.path){
+        //路由跳转
+        this.$router.replace(path)
+      }
     }
   },
 }
@@ -49,6 +52,7 @@ export default {
     bottom 0
     height 50px
     width 100%
+    background-color #fff
     .guide-item
       display flex
       flex-direction column

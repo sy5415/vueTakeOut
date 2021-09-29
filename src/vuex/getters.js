@@ -1,0 +1,8 @@
+/* 
+包含n个基于state状态数据的getter计算属性的方法对象
+ */
+export default{
+    sy(){
+        console.log(66666);
+    }
+}
